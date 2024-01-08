@@ -148,7 +148,7 @@ body {
     margin-right: auto;
   }
   .tessa-image {
-    width: 80%;
+    width: 75%;
     margin: 10px;
     display: block;
     margin-left: auto;
@@ -181,6 +181,9 @@ body {
   body::-webkit-scrollbar {
     display: none; /* Safari and Chrome */
   }
+  h2 {
+    font-size: 26px;
+  }
 }
 @media (min-width: 768px) {
   .about-container {
@@ -192,24 +195,30 @@ body {
   .tessa-image {
     width: 50%; /* Adjust the size of the image */
     max-width: 300px; /* Prevents the image from being too large */
-    margin-right: 20px; /* Adds some space between the image and the text */
+    margin-right: 10px; /* Adds some space between the image and the text */
+    margin-left: 40px;
   }
 
   .about-text {
-    width: 50%;
+    margin: 0 auto;
+    line-height: 2;
+    padding-left: 25px;
+    padding-right: 40px;
   }
 }
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   .menu-image {
     max-width: 600px;
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-}
-@media (max-width: 768px) {
-  width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+} */
+@media (min-width: 768px) {
+  .menu-image {
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
